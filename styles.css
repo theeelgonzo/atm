@@ -3,28 +3,38 @@ Don't fear
 Soon there will be style rules here
 */
 .pennant {
-    display: flex;
+    /*display: flex;*/
+    height: 5em;
+    background-image: url(images/banner_Generic.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
 }
 
-.leftSide {
+.pennant h2 {
+    color: #fff;
+}
+
+/*.leftSide {
     display: flex;
     flex: 1;
 }
 
 .leftSide h2 {
-    flex: 10;
+    flex: 8;
+    max-height: 10em;
+    font-size: 150%;
 }
 
 .leftSide button {
     flex: 1;
     max-width: 5em;
-    max-height: 3em;
+    max-height: 4em;
     font-size: 15px;
 }
 
 .rightSide {
-    flex: 1;
-}
+    height: 100%;
+}*/
 
 .banner {
     margin-top: 2em;
@@ -41,6 +51,6 @@ Soon there will be style rules here
 }
 
 .innerBlock {
-    flex: 5;
+    flex: 6;
     text-align: center;
 }
