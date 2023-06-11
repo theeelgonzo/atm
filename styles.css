@@ -2,3 +2,18 @@
 Don't fear
 Soon there will be style rules here
 */
+
+.banner {
+    margin-top: 2em;
+    display: flex;
+    background: linear-gradient(to bottom right, blue, lightblue);
+}
+
+.banner img {
+    flex: 1;
+}
+
+.innerBlock {
+    flex: 5;
+    text-align: center;
+}
