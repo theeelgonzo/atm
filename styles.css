@@ -77,3 +77,8 @@ body {
     font-weight: 700;
     font-size: larger;
 }
+
+.nextBox {
+    width: 100%;
+    max-height: fit-content;
+}
