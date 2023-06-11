@@ -6,7 +6,11 @@ Soon there will be style rules here
 .banner {
     margin-top: 2em;
     display: flex;
-    background: linear-gradient(to bottom right, blue, lightblue);
+    background: linear-gradient(
+        to bottom right,
+        rgba(0, 0, 255, 0.4),
+        rgba(173, 216, 230, 0.4)
+    );
 }
 
 .banner img {
