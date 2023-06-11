@@ -2,6 +2,29 @@
 Don't fear
 Soon there will be style rules here
 */
+.pennant {
+    display: flex;
+}
+
+.leftSide {
+    display: flex;
+    flex: 1;
+}
+
+.leftSide h2 {
+    flex: 10;
+}
+
+.leftSide button {
+    flex: 1;
+    max-width: 5em;
+    max-height: 3em;
+    font-size: 15px;
+}
+
+.rightSide {
+    flex: 1;
+}
 
 .banner {
     margin-top: 2em;
