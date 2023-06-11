@@ -44,13 +44,6 @@ body {
     height: 100%;
 }*/
 
-.bannerBG {
-    /*background: linear-gradient(
-        to bottom right,
-        rgba(0, 0, 255, 0.2),
-        rgba(173, 216, 230, 0.4)
-    );*/
-}
 .banner {
     background: rgba(255, 255, 255, 0.2);
     margin-top: 1.5em;
