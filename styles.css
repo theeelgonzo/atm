@@ -82,3 +82,27 @@ body {
     width: 100%;
     max-height: fit-content;
 }
+
+.footBox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.copy {
+    flex: 1;
+}
+
+.address {
+    flex: 1;
+}
+
+.bottomLinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex: 1;
+}
+
+.emptyFoot {
+    flex: 0.1;
+}
